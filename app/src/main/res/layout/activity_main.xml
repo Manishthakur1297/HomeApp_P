@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.apkglobal.homeapp.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Welcome To Cetpa InfoTech"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:layout_marginBottom="1dp"
+        android:textColor="#ff0000"
+        android:background="@drawable/txt_back"
+        />
+
+
+   <!-- <ImageView
+       android:layout_width="300dp"
+       android:layout_height="120dp"
+       android:src="@drawable/anonymous"
+        android:layout_gravity="center"
+
+       />-->
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/btn_home"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/btn_about"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:id="@+id/btn_contact"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Website(Without)"
+        android:id="@+id/btn_website"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Website(Webview)"
+        android:id="@+id/btn_webview"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Me"
+        android:id="@+id/btn_call"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Me"
+        android:id="@+id/btn_share"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation"
+        android:id="@+id/btn_anim"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Career"
+        android:id="@+id/btn_career"
+        android:background="@drawable/btn_back"
+        android:layout_margin="3dp"/>
+
+
+</LinearLayout>

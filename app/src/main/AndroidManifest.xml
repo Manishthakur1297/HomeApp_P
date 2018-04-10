@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apkglobal.homeapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cetpa_icon"
+        android:label="Cetpa InfoTech"
+        android:roundIcon="@mipmap/cetpa_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Cetpa InfoTech" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About" />
+        <activity
+            android:name=".CareerActivity"
+            android:label="Career" />
+        <activity
+            android:name=".ContactActivity"
+            android:label="Contact" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".Animation.AnimationActivity"></activity>
+        <activity
+            android:name=".Animation.AnimActivity"
+            android:label="@string/title_activity_anim"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Hotstar.HotstarActivity"
+            android:label="@string/title_activity_hotstar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
